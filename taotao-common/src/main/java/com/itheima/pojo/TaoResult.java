@@ -1,12 +1,13 @@
 package com.itheima.pojo;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * @author lzhstart
  * @create 2020/12/22 14:31
  */
-public class TaoResult<T> {
+public class TaoResult<T> implements Serializable {
     private long total;
     private List<T> rows;
 

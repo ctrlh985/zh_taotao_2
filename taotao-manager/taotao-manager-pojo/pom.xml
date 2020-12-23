@@ -7,8 +7,10 @@
         <groupId>com.itheima</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
+
     <packaging>jar</packaging>
+    <modelVersion>4.0.0</modelVersion>
+
 
     <artifactId>taotao-manager-pojo</artifactId>
 
