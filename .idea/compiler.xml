@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="itcast-dubbo-provider" />
         <module name="taotao-manager-web" />
-        <module name="taotao-manager-mapper" />
+        <module name="itcast-dubbo-provider" />
         <module name="itcast-dubbo-interface" />
         <module name="taotao-common" />
         <module name="taotao-manager-interface" />
+        <module name="taotao-protal" />
+        <module name="taotao-portral" />
         <module name="taotao-manager-pojo" />
+        <module name="taotao-manager-mapper" />
         <module name="itcast-dubbo-consumer" />
         <module name="taotao-manager-service" />
       </profile>
@@ -29,6 +31,9 @@
       <module name="taotao-manager-service" target="1.8" />
       <module name="taotao-manager-web" target="1.8" />
       <module name="taotao-parent" target="1.8" />
+      <module name="taotao-portal" target="1.8" />
+      <module name="taotao-portral" target="1.8" />
+      <module name="taotao-protal" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -42,6 +47,9 @@
       <module name="taotao-manager-pojo" options="-parameters" />
       <module name="taotao-manager-service" options="-parameters" />
       <module name="taotao-manager-web" options="-parameters" />
+      <module name="taotao-portal" options="-parameters" />
+      <module name="taotao-portral" options="-parameters" />
+      <module name="taotao-protal" options="-parameters" />
     </option>
   </component>
 </project>
