@@ -16,4 +16,11 @@ public interface ItemService {
      * @param rows 一页显示多少行数据
      */
     TaoResult<Item> findByPage(Integer page, Integer rows);
+
+    /**
+     * 新增商品
+     * @param item 商品对象
+     * @param desc 商品描述
+     */
+    void saveItem(Item item,String desc);
 }

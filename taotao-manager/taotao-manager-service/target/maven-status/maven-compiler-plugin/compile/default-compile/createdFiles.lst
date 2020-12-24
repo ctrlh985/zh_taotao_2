@@ -1,2 +1,3 @@
-com\itheima\ManagerServiceApp.class
 com\itheima\service\impl\ItemServiceImpl.class
+com\itheima\ManagerServiceApp.class
+com\itheima\service\impl\ItemCatServiceImpl.class

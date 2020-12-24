@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author lzhstart
  * @create 2020/12/23 10:37
+ *
+ * 商品列表
  */
 @RestController
 public class ItemController {
@@ -20,10 +22,17 @@ public class ItemController {
     @Reference
     private ItemService itemService;
 
-    @RequestMapping("/rest/item")
+    @RequestMapping("/rest/item") //get请求
     public TaoResult<Item> findByPage(int page, int rows) {
         TaoResult<Item> taoResult = itemService.findByPage(page, rows);
         return taoResult;
+    }
+
+    @RequestMapping("/rest/addItem")
+    public void addItem(Item item,String desc){
+        itemService.saveItem(item,desc);
+        System.out.println("新增商品成功：" + item);
+        System.out.println("新增商品描述：" + desc);
     }
 
 
