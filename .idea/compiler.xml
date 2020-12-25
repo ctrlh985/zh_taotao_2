@@ -16,6 +16,7 @@
         <module name="taotao-manager-pojo" />
         <module name="taotao-manager-mapper" />
         <module name="itcast-dubbo-consumer" />
+        <module name="taotao-solr" />
         <module name="taotao-manager-service" />
       </profile>
     </annotationProcessing>
@@ -34,6 +35,7 @@
       <module name="taotao-portal" target="1.8" />
       <module name="taotao-portral" target="1.8" />
       <module name="taotao-protal" target="1.8" />
+      <module name="taotao-solr" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -50,6 +52,7 @@
       <module name="taotao-portal" options="-parameters" />
       <module name="taotao-portral" options="-parameters" />
       <module name="taotao-protal" options="-parameters" />
+      <module name="taotao-solr" options="-parameters" />
     </option>
   </component>
 </project>
