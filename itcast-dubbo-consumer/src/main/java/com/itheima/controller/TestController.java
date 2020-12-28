@@ -2,6 +2,7 @@ package com.itheima.controller;
 
 import com.itheima.TestService;
 import org.apache.dubbo.config.annotation.Reference;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,7 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-//    @Autowired 只能注入自己项目的对象
+   // @Autowired只能注入自己项目的对象
+   //  reference 可以注入外部项目的对象
+
 
     @Reference
     private TestService testService;

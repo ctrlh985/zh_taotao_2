@@ -6,21 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="itcast-dubbo-interface" />
+        <module name="taotao-search-web" />
         <module name="taotao-manager-web" />
         <module name="itcast-dubbo-provider" />
-        <module name="itcast-dubbo-interface" />
-        <module name="taotao-common" />
-        <module name="taotao-manager-interface" />
-        <module name="taotao-protal" />
-        <module name="taotao-portral" />
-        <module name="taotao-manager-pojo" />
+        <module name="taotao-search-interface" />
+        <module name="taotao-solr" />
         <module name="taotao-manager-mapper" />
         <module name="itcast-dubbo-consumer" />
-        <module name="taotao-solr" />
+        <module name="taotao-common" />
+        <module name="taotao-portral" />
+        <module name="taotao-manager-interface" />
+        <module name="taotao-search-service" />
         <module name="taotao-manager-service" />
+        <module name="itcast-activemq" />
+        <module name="taotao-protal" />
+        <module name="taotao-manager-pojo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="itcast-activemq" target="1.8" />
       <module name="itcast-dubbo-consumer" target="1.8" />
       <module name="itcast-dubbo-interface" target="1.8" />
       <module name="itcast-dubbo-provider" target="1.8" />
@@ -35,11 +40,16 @@
       <module name="taotao-portal" target="1.8" />
       <module name="taotao-portral" target="1.8" />
       <module name="taotao-protal" target="1.8" />
+      <module name="taotao-search" target="1.8" />
+      <module name="taotao-search-interface" target="1.8" />
+      <module name="taotao-search-service" target="1.8" />
+      <module name="taotao-search-web" target="1.8" />
       <module name="taotao-solr" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itcast-activemq" options="-parameters" />
       <module name="itcast-dubbo-consumer" options="-parameters" />
       <module name="itcast-dubbo-interface" options="-parameters" />
       <module name="itcast-dubbo-provider" options="-parameters" />
@@ -52,6 +62,10 @@
       <module name="taotao-portal" options="-parameters" />
       <module name="taotao-portral" options="-parameters" />
       <module name="taotao-protal" options="-parameters" />
+      <module name="taotao-search" options="-parameters" />
+      <module name="taotao-search-interface" options="-parameters" />
+      <module name="taotao-search-service" options="-parameters" />
+      <module name="taotao-search-web" options="-parameters" />
       <module name="taotao-solr" options="-parameters" />
     </option>
   </component>

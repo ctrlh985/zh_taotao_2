@@ -37,6 +37,16 @@ public class Item extends BasePojo {
     @Column
     private Integer status;
 
+    // 添加get方法，支持前端页面的展示
+    public String[] getImages() {
+        if (!this.getImage().isEmpty()) {
+            String[] images = this.getImage().split(",");
+            return images;
+        }
+        // 如果没有图片，直接返回空
+        return null;
+    }
+
     public Long getId() {
         return id;
     }

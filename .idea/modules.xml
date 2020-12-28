@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/itcast-activemq/itcast-activemq.iml" filepath="$PROJECT_DIR$/itcast-activemq/itcast-activemq.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast-dubbo-consumer/itcast-dubbo-consumer.iml" filepath="$PROJECT_DIR$/itcast-dubbo-consumer/itcast-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast-dubbo-interface/itcast-dubbo-interface.iml" filepath="$PROJECT_DIR$/itcast-dubbo-interface/itcast-dubbo-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast-dubbo-provider/itcast-dubbo-provider.iml" filepath="$PROJECT_DIR$/itcast-dubbo-provider/itcast-dubbo-provider.iml" />
@@ -15,6 +16,10 @@
       <module fileurl="file://$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" filepath="$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-parent/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent/taotao-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-portral/taotao-portral.iml" filepath="$PROJECT_DIR$/taotao-portral/taotao-portral.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search/taotao-search.iml" filepath="$PROJECT_DIR$/taotao-search/taotao-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search/taotao-search-interface/taotao-search-interface.iml" filepath="$PROJECT_DIR$/taotao-search/taotao-search-interface/taotao-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search/taotao-search-service/taotao-search-service.iml" filepath="$PROJECT_DIR$/taotao-search/taotao-search-service/taotao-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search-web/taotao-search-web.iml" filepath="$PROJECT_DIR$/taotao-search-web/taotao-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-solr/taotao-solr.iml" filepath="$PROJECT_DIR$/taotao-solr/taotao-solr.iml" />
     </modules>
   </component>
