@@ -23,4 +23,17 @@ public interface ItemService {
      * @param desc 商品描述
      */
     void saveItem(Item item,String desc);
+
+
+    /**
+     * 下架
+     * @param id
+     */
+    void instockItem(Long id);
+
+    Item queryById(Long itemId);
+
+    void reshelf(Long id);
+
+    void deleteById(Long id);
 }

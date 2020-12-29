@@ -8,5 +8,6 @@ import tk.mybatis.mapper.common.Mapper;
  * @author lzhstart
  * @create 2020/12/24 9:22
  */
+@Repository
 public interface ItemDescMapper extends Mapper<ItemDesc> {
 }

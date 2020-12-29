@@ -6,6 +6,7 @@ import com.itheima.service.ItemService;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -36,5 +37,34 @@ public class ItemController {
     }
 
 
+    /**
+     * 下架商品
+     * @param id 前端传来的id
+     */
+    // http://manager.taotao.com/rest/item/instock
+    @RequestMapping("/rest/item/instock")
+    public void instockItem(@RequestParam(value = "ids") Long id) {
+        itemService.instockItem(id);
+        System.out.println("商品下架成功");
+    }
 
+    // http://manager.taotao.com/rest/item/reshelf
+    @RequestMapping("/rest/item/reshelf")
+    public void reshelf(@RequestParam(value = "ids") Long id) {
+        itemService.reshelf(id);
+        System.out.println("商品上架成功");
+    }
+
+    // http://manager.taotao.com/rest/item/delete
+    @RequestMapping("/rest/item/delete")
+    public void deleteItem(@RequestParam(value = "ids") Long id) {
+        itemService.deleteById(id);
+        System.out.println("删除成功" + id);
+    }
+
+    // http://manager.taotao.com/rest/page/item-edit?_=1609243924758
+    @RequestMapping("/rest/page")
+    public void updateItem(@RequestParam(value = "_") Long id) {
+        // itemService
+    }
 }

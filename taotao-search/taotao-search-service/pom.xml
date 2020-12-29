@@ -22,6 +22,12 @@
             <artifactId>taotao-solr</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.itheima</groupId>
+            <artifactId>taotao-manager-mapper</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

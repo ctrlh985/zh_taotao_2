@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PageController {
     @RequestMapping("/{page}")
     public String page(String page) {
-//        System.out.println(page);
         return page;
     }
 }
