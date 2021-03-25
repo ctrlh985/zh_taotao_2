@@ -62,9 +62,4 @@ public class ItemController {
         System.out.println("删除成功" + id);
     }
 
-    // http://manager.taotao.com/rest/page/item-edit?_=1609243924758
-    @RequestMapping("/rest/page")
-    public void updateItem(@RequestParam(value = "_") Long id) {
-        // itemService
-    }
 }
