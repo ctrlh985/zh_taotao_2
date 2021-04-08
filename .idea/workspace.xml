@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff39ed2b-ec94-4ae5-97e2-0d045deb1aab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/taotao-manager-web/src/main/java/com/itheima/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/src/main/java/com/itheima/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/classes/com/itheima/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/classes/com/itheima/controller/ItemController.class" afterDir="false" />
-    </list>
+    <list default="true" id="ff39ed2b-ec94-4ae5-97e2-0d045deb1aab" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/springboot高级/springboot-mybatis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,8 +64,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\taotao\taotao-portal\src\main" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.service" />
+      <recent name="com.itheima.listener" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\taotao\taotao-manager\taotao-manager-pojo\src\main\java\com\itheima\pojo" />
@@ -76,13 +80,6 @@
       <recent name="D:\project\taotao\taotao-search-web\src\main\webapp" />
       <recent name="D:\project\taotao\taotao-solr\src\main\java\com\itheima\pojo" />
       <recent name="D:\project\taotao\taotao-portral\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.itheima.service" />
-      <recent name="com.itheima.listener" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\taotao\taotao-portal\src\main" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ItemWebApp">
@@ -247,6 +244,14 @@
       <workItem from="1616076239398" duration="13000" />
       <workItem from="1616079727225" duration="201000" />
       <workItem from="1616080058177" duration="380000" />
+      <workItem from="1617718640690" duration="1191000" />
+      <workItem from="1617720870451" duration="47000" />
+      <workItem from="1617763877411" duration="1878000" />
+      <workItem from="1617779834806" duration="165000" />
+      <workItem from="1617780959063" duration="983000" />
+      <workItem from="1617790145210" duration="308000" />
+      <workItem from="1617806352447" duration="869000" />
+      <workItem from="1617865780363" duration="861000" />
     </task>
     <servers />
   </component>
@@ -254,10 +259,6 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Notifications" timestamp="1608779143107">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1608779143107" />
     <state x="361" y="71" key="#Project_Structure" timestamp="1609118875279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -274,26 +275,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="194" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1609312938454" />
-    <state x="389" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1608789208151">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="389" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1608789208151" />
     <state x="578" y="319" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1609221065646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="319" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1609221065646" />
-    <state x="63" y="274" width="642" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608623444874">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="63" y="274" width="642" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1608623444874" />
     <state x="273" y="5" key="CommitChangelistDialog2" timestamp="1609245192767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="273" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609245192767" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609312908506">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="549" y="169" key="FileChooserDialogImpl" timestamp="1617719226967">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609312908506" />
+    <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1617719226967" />
     <state width="1493" height="301" key="GridCell.Tab.0.bottom" timestamp="1609397083766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -342,9 +336,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609376232588" />
-    <state x="470" y="95" key="spring file set editor" timestamp="1608789857482">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="470" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1608789857482" />
   </component>
 </project>
